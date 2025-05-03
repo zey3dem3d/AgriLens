@@ -1,0 +1,86 @@
+.body {
+  background-color: var(--green-dark-color);
+  padding-top: 50px;
+  padding-bottom: 150px !important;
+}
+
+.inline-body {
+  padding-top: 100px;
+}
+
+.body::after {
+  content: "";
+  position: absolute;
+  width: 27%;
+  height: 50%;
+  left: 0;
+  top: 0;
+  background-color: var(--green-dark-dark-color);
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about-description h5 {
+  color: var(--yellow-color);
+  font-size: 30px;
+}
+
+.line-height-2 {
+  line-height: 23px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Century Gothic";
+}
+
+i {
+  color: var(--yellow-color);
+}
+
+i.fa-circle-check {
+  background-color: var(--green-dark-color);
+  border-radius: 50%;
+}
+
+.before-div {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 8%;
+  right: 0;
+  background-color: var(--green-light-color);
+  width: 90%;
+  height: 120px;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.imgBox {
+  z-index: 10 !important;
+}
+
+.imgBox::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  z-index: -1;
+  bottom: 15px;
+  width: 100%;
+  height: 30%;
+  background-color: var(--yellow-color);
+  border-radius: 5px;
+}
+
+.statistics h5 {
+  font-size: 40px;
+}

@@ -1,0 +1,90 @@
+<nav
+  class="navbar navbar-expand-lg green-dark-color fixed-top w-100 cursor-pointer"
+  id="navbar-example"
+>
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+      <img
+        src="images/logo.png"
+        alt="Logo"
+        class="d-inline-block align-text-top me-3 sm-img"
+        [class.lg-img]="isScroll"
+      />
+      <a
+        class="navbar-brand passions-conflict-regular text-white logo-trans fs-2"
+        [class.logo]="isScroll"
+      >
+        Agri Lens
+      </a>
+    </div>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 center-on-collapse">
+        <li class="nav-item">
+          <a
+            class="nav-link text-white p-lg-0 mx-3 text-center active"
+            aria-current="page"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white p-lg-0 mx-3 text-center" href="#aboutUs"
+            >About Us</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white p-lg-0 mx-3 text-center"
+            href="#outProducts"
+            >Our Products</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white p-lg-0 mx-3 text-center"
+            href="#projects"
+            >Projects</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white p-lg-0 mx-3 text-center"
+            href="#services"
+            >Services</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white p-lg-0 mx-3 text-center" href="#news"
+            >News</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-white p-lg-0 mx-3 text-center"
+            href="#contactUs"
+            >Contact Us</a
+          >
+        </li>
+        <li class="mt-sm-4 mt-0 mt-lg-0">
+          <a
+            class="text-white mx-3 text-center text-decoration-none rounded-2 px-3 py-2 order-btn"
+            routerLink="/orders"
+            >Orders</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

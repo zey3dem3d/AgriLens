@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --green-light-color: #6d8c54;
+  --green-dark-color: #334b35;
+  --green-dark-dark-color: #263c28;
+  --yellow-color: #f7c35f;
+}
+
+body {
+  scroll-behavior: smooth;
+  /* font-family: "Century Gothic" !important; */
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #f7c948 #2e4831;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f7c948;
+  border-radius: 8px;
+}
+
+.passions-conflict-regular {
+  font-family: "Passions Conflict", serif;
+}
+
+.livvic-font-family {
+  font-family: "Livvic", serif;
+}
+
+.mistral-font {
+  font-family: "Mistral", serif;
+}
+
+.century-gothic-font {
+  font-family: "Century Gothic";
+}
+
+@font-face {
+  font-family: "Century Gothic";
+  src: url("/fonts/centurygothic.ttf") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mistral";
+  src: url("/fonts/MISTRAL.TTF") format("tff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
+
+@import "../node_modules/primeflex/primeflex.css";
+@import "../node_modules/primeicons/primeicons.css";

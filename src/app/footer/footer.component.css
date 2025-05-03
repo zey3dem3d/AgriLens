@@ -1,0 +1,72 @@
+.banner-section {
+  background: linear-gradient(to right, #f7c35f, #263c28);
+  padding: 70px 0;
+  color: #1b2e1d;
+  font-family: "Cursive", serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.banner-text {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.download-btn {
+  background-color: #f7c948;
+  color: #1b2e1d;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #000;
+  color: var(--yellow-color);
+}
+
+.footer {
+  background-color: var(--green-dark-color) !important;
+}
+
+input {
+  background-color: var(--green-dark-dark-color);
+  border: 0;
+  width: 100%;
+}
+
+input:focus {
+  outline: 0;
+  color: #fff;
+}
+
+.footer button {
+  right: 4%;
+  width: 40px;
+  bottom: 15%;
+  border: 0;
+  background-color: var(--yellow-color);
+}

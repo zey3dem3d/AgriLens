@@ -1,0 +1,148 @@
+nav {
+  z-index: 1000;
+  padding: 0 !important;
+}
+
+.passions-conflict-regular {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.green-dark-color {
+  background-color: var(--green-dark-color);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+ul li a {
+  font-size: 18px !important;
+}
+
+.logo {
+  font-size: 47px !important;
+  transition: all 0.5s;
+}
+
+.logo-trans {
+  transition: all 0.5s;
+}
+
+.nav-link {
+  position: relative;
+  font-weight: 400;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: var(--yellow-color);
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transition: 0.4s;
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link:hover::after {
+  width: 100% !important;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.sm-img {
+  width: 40px;
+  height: 38px;
+  transition: all 0.5s;
+}
+
+.lg-img {
+  width: 64px;
+  height: 60px;
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    width: 40px;
+    height: 38px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .nav-link {
+    width: 25% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .center-on-collapse {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* Center logo and toggler in header */
+  .navbar .container-fluid {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Make nav items full-width and center aligned */
+  .navbar-nav.center-on-collapse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .navbar-nav.center-on-collapse .nav-item {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  .navbar-nav.center-on-collapse .nav-link {
+    display: inline-block;
+    font-size: 1.1rem;
+  }
+
+  /* Make "Orders" button consistent and centered */
+  .navbar-nav.center-on-collapse li:last-child a {
+    margin-top: 1rem;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  /* Optional: reduce logo size */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 0.5rem;
+  }
+}
+
+.order-btn {
+  background-color: var(--yellow-color);
+  color: #000 !important;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background-color: #000;
+  color: var(--yellow-color) !important;
+}

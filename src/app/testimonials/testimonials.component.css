@@ -1,0 +1,58 @@
+section {
+  background-color: var(--green-dark-color);
+}
+
+.py-7 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.lead {
+  font-weight: 400 !important;
+  color: #d6dbd7 !important;
+}
+
+.carousel-section {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.carousel-section .image-one-contan .s-img {
+  width: 150px !important;
+}
+
+.carousel-section .image-one-contan .s-img {
+  width: 102px !important;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 0;
+  margin-left: 15%;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  transition: all 0.5s;
+  margin: 0 4px;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  background-color: var(--yellow-color);
+  width: 20px !important;
+  padding: 0 1px;
+  border-radius: 45% !important;
+}

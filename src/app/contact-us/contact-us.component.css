@@ -1,0 +1,32 @@
+section {
+  background-color: var(--green-dark-color) !important;
+  padding-top: 150px !important;
+}
+
+input,
+textarea {
+  background-color: var(--green-dark-dark-color);
+  border: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--yellow-color);
+}
+
+button {
+  background-color: var(--yellow-color);
+  color: #1a1a1a;
+  font-weight: 500 !important;
+  border: 0;
+}
+
+button:hover {
+  background-color: #000;
+  color: var(--yellow-color);
+}
+
+.text-uppercase {
+  font-weight: 400;
+  font-size: 12px;
+}
