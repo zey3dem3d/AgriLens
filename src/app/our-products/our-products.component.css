@@ -20,6 +20,12 @@ h2 {
   font-family: "Livvic";
 }
 
+@media all and (max-width: 576px) {
+  .icon-title {
+    font-size: 10px;
+  }
+}
+
 .box {
   background-color: #445945;
   border-radius: 10px;

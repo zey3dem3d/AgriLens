@@ -65,8 +65,22 @@ input:focus {
 
 .footer button {
   right: 4%;
-  width: 40px;
+  width: 42px;
   bottom: 15%;
   border: 0;
   background-color: var(--yellow-color);
+}
+
+i {
+  color: var(--yellow-color);
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.end-hr {
+  height: 1px;
+  background-color: #fff;
+  border: 0;
 }

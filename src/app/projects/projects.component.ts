@@ -29,7 +29,7 @@ export class ProjectsComponent {
       0: {
         items: 1,
       },
-      400: {
+      500: {
         items: 2,
       },
       600: {

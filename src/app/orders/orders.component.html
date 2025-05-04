@@ -1,1 +1,110 @@
-<p>orders works!</p>
+<section class="century-gothic-font">
+  <div class="main-container p-4">
+    <div class="text-center text-white mb-5">
+      <h2 class="fw-bold">Customize and Schedule <br />Your Smart System</h2>
+      <p class="">
+        Choose your time, customize your system, and we’ll handle the rest!
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Form Section -->
+      <div class="col-md-4">
+        <div class="card p-4 h-100">
+          <h5 class="mb-3">Choose Pick-up Time</h5>
+
+          <div class="mb-3">
+            <label for="pickupDate" class="form-label"
+              >Choose Pick-up Time</label
+            >
+            <input type="date" id="pickupDate" class="form-control" />
+          </div>
+
+          <div class="mb-3">
+            <label for="floors" class="form-label">How many floors?</label>
+            <input type="number" id="floors" class="form-control" value="2" />
+          </div>
+
+          <div class="mb-3">
+            <label for="cells" class="form-label">How many cells?</label>
+            <input type="number" id="cells" class="form-control" value="10" />
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Which sensors to include:</label>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                checked
+                id="dht11"
+              />
+              <label class="form-check-label" for="dht11">DHT11</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="soil" />
+              <label class="form-check-label" for="soil"
+                >Soil moisture sensor</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                checked
+                id="camera"
+              />
+              <label class="form-check-label" for="camera">Camera</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="movement" />
+              <label class="form-check-label" for="movement"
+                >Movement system</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary Section -->
+      <div class="col-md-4">
+        <div class="card p-4 h-100">
+          <h5 class="mb-3">Summary</h5>
+          <p>Floors <span class="float-end">2</span></p>
+          <p>Cells <span class="float-end">10</span></p>
+          <p>Sensors DHT11, Camera</p>
+          <hr />
+          <h6>Where You Can Find Us</h6>
+          <p>123 Mansoura University,<br />Mansoura, Egypt</p>
+          <p><i class="bi bi-telephone"></i> (+20) 123 456 7899</p>
+          <p><i class="bi bi-envelope"></i> ibrahimhegazy&#64;gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Payment Summary + Map -->
+      <div class="col-md-4">
+        <div class="card p-4 mb-3">
+          <h5 class="mb-3">Summary</h5>
+          <p>Total items <span class="float-end">2</span></p>
+          <p>Floors <span class="float-end">$270</span></p>
+          <p>Cells <span class="float-end">$270</span></p>
+          <hr />
+          <p class="fw-bold">
+            You will pay: <span class="float-end">$530</span>
+          </p>
+        </div>
+
+        <div class="map">
+          <iframe
+            src="https://maps.google.com/maps?q=Mansoura%20University&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
