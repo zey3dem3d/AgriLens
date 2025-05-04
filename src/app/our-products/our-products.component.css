@@ -106,3 +106,12 @@ i {
     display: none;
   }
 }
+
+.scale-hover {
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.scale-hover:hover {
+  transform: scale(1.1);
+}

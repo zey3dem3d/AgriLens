@@ -18,6 +18,20 @@
   background-color: var(--green-dark-dark-color);
 }
 
+@media all and (max-width: 1285px) {
+  .body::after {
+    display: none;
+  }
+
+  .before-div {
+    display: none !important;
+  }
+
+  .imgBox::after {
+    display: none !important;
+  }
+}
+
 h6 {
   font-weight: 400;
   font-size: 20px;
@@ -56,10 +70,10 @@ i.fa-circle-check {
   content: "";
   position: absolute;
   bottom: -50px;
-  left: 8%;
+  left: 14%;
   right: 0;
   background-color: var(--green-light-color);
-  width: 90%;
+  width: 80%;
   height: 120px;
   z-index: 100;
   border-radius: 10px;

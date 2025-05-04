@@ -11,7 +11,7 @@ body {
 }
 
 * {
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   scrollbar-color: #f7c948 #2e4831;
 }
 
